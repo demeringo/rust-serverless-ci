@@ -6,7 +6,7 @@ Image contains:
 
 - rust:1.63.0-slim-bullseye 🦀
 - rustc target x86_64-unknown-linux-musl (to compile for lambda) 🦀
-- musl-tools and linux-musl-dev packages (for cross compilation) 🦀
+- musl-tools (for cross compilation) 🦀
 - rust clippy linter 🦀
 - node and npm (as provided by debian) ⚡
 - serverless framework ⚡
