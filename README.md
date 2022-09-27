@@ -18,7 +18,7 @@ Image contains:
 docker pull ghcr.io/demeringo/rust-serverless-ci:latest
 
 # show versions
-docker run -it ghcr.io/demeringo/rust-serverless-ci:latest cargo --version -v;node --version;serverless --version;
+docker run -it ghcr.io/demeringo/rust-serverless-ci:latest cargo --version;node --version;serverless --version;
 
 cargo 1.63.0 (fd9c4297c 2022-07-01)
 v14.20.1
