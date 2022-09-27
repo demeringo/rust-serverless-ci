@@ -14,8 +14,11 @@ Image contains:
 ## usage
 
 ```sh
-sudo docker run -it ghcr.io/demeringo/rust-serverless-ci:latest node --version;cargo --version
+sudo docker run -it ghcr.io/demeringo/rust-serverless-ci:latest cargo --version;node --version;serverless --version;
 
-v12.22.12
 cargo 1.63.0 (fd9c4297c 2022-07-01)
+v14.20.1
+Framework Core: 3.22.0
+Plugin: 6.2.2
+SDK: 4.3.2
 ```
