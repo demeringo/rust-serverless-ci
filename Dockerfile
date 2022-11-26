@@ -1,4 +1,4 @@
-FROM rust:1.63.0-slim-bullseye
+FROM rust:1.65.0-slim-bullseye
 
 RUN apt update \
 && apt install -y nodejs npm musl-tools \
@@ -6,5 +6,5 @@ RUN apt update \
 && rustup component add clippy \
 && npm install -g serverless
 
-# Override entry point to get the opportunity to start scaphandre before node
+# Override entry point so that you can pass commands.
 ENTRYPOINT [""]
